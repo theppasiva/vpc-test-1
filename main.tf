@@ -11,7 +11,10 @@ public_subnets_cidr = var.public_subnets_cidr
 #private subnet
 private_subnets_cidr = var.private_subnets_cidr
 
-#private subnet
+#database subnet
 database_subnets_cidr = var.database_subnets_cidr
+
+#peerinh
+is_peering_required = var.is_peering_required
 
 }
